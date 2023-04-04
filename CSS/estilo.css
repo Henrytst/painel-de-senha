@@ -1,0 +1,82 @@
+.titulo{
+    display: grid;
+    place-items: center;
+}
+.ClieCaixa{
+    background-color: rgb(3, 3, 146);
+    width: 100%;
+    padding: 100px;
+    box-shadow: 0 4px 15px black;
+    box-sizing: border-box; 
+    border-bottom: 1000px;
+}
+#senha{
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 600%;
+    color: white;
+}
+#caixa{
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 300%;
+    color: white;
+}
+.Clientes{
+    padding: 3%;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    width: 49%;
+    height: 45%;
+    top: 52%;
+    box-shadow: 0 3px 10px black;
+    box-sizing: border-box;
+  
+}
+.Caixas{
+    padding: 3%;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    width: 49%;
+    height: 45%;
+    left: 50.5%;
+    top: 52%;
+    box-shadow: 0 3px 10px black;
+    box-sizing: border-box;
+}
+.botao{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1%;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+    margin-top: 5%;
+    margin-left: 15px;
+    flex-direction: row;
+}
+h2{
+    margin-top: -10px;
+    font-family: Arial;
+}   
+p{
+    margin-top: 4%;
+    font-weight: bold;
+    font-family: Arial;
+}
+#É{
+    margin-top: 8%;
+}
+#SuaSenha{
+    margin-top: -8%;
+    margin-left: 110px;
+    font-size: 250%;
+    
+}
