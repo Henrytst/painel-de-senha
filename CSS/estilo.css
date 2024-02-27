@@ -1,0 +1,54 @@
+/* Estilos para o título */
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o container */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilos para a caixa de clientes */
+.ClieCaixa {
+    color: #f0f0f0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #083dce;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Estilos para o chamador */
+.chamador {
+    margin-top: 20px;
+}
+
+/* Estilos para as seções de clientes e caixas */
+.Clientes,
+.Caixas {
+    float: left;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 49%;
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+/* Estilos para os botões */
+.botao {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+#SuaSenha{
+    font-size: 20px;
+    font-weight: bold;
+}
